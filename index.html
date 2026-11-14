@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Premith — smart CCTV and AI monitoring for home and business."
+    />
+    <title>Premith</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="logo" href="/">Premith</a>
+        <nav aria-label="Primary">
+          <a href="#products">Products</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div>
+            <p class="eyebrow">Home &amp; business security</p>
+            <h1>Smart CCTV that works on cameras you already have</h1>
+            <p class="lead">
+              Premith Secure for families. Premith Industries for shops,
+              factories, and showrooms — alerts on WhatsApp, on-device AI, and
+              simple setup.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="mailto:2244ashutosh@gmail.com"
+                >Get in touch</a
+              >
+              <a class="btn btn-ghost" href="#products">Learn more</a>
+            </div>
+          </div>
+          <div class="hero-card" aria-hidden="true">
+            <div class="stat">
+              <span class="stat-value">24/7</span>
+              <span class="stat-label">Monitoring</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">AI</span>
+              <span class="stat-label">On your streams</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">WA</span>
+              <span class="stat-label">Instant alerts</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="products">
+        <div class="wrap">
+          <h2>Products</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Premith Secure</h3>
+              <p>
+                Turn an old phone into a smart box at home. Pair family phones,
+                view live feeds, recordings, and AI alerts — LAN, Tailscale, or
+                cloud relay.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Premith Industries</h3>
+              <p>
+                Footfall, queues, vehicles, and safety events for retail and
+                light industry — affordable edge AI without heavy servers.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="wrap">
+        <p>
+          © <span id="year"></span> Premith ·
+          <a href="mailto:2244ashutosh@gmail.com">2244ashutosh@gmail.com</a>
+        </p>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
