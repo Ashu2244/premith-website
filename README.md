@@ -2,10 +2,20 @@
 
 Static marketing site for Premith (Secure + Industries).
 
-## Cloudflare Pages
+## Edit site
 
-- **Build command:** *(leave empty)*
-- **Build output directory:** `/`
+Change files under **`public/`** (`index.html`, `styles.css`, images).
+
+## Cloudflare (Git → Workers)
+
+- **Build command:** `npm install` (or empty)
+- **Deploy command:** `npx wrangler deploy`
 - **Production branch:** `main`
 
-Push to GitHub to trigger deployment after the repo is connected in Cloudflare.
+Static assets deploy from `public/` only (not `node_modules`).
+
+```powershell
+git add .
+git commit -m "Update site"
+git push
+```
