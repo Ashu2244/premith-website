@@ -1,19 +1,11 @@
-# Premith website
+# Premith Website
 
-Static marketing site for Premith Secure and Premith Industries.
+Static marketing site for Premith (Secure + Industries).
 
-## Local preview
+## Cloudflare Pages
 
-Open `index.html` in a browser, or:
-
-```bash
-npx --yes serve .
-```
-
-## Deploy (Cloudflare Pages)
-
-- **Build command:** *(empty)*
-- **Build output directory:** `/` (project root)
+- **Build command:** *(leave empty)*
+- **Build output directory:** `/`
 - **Production branch:** `main`
 
-Connect this GitHub repo in Cloudflare Pages for automatic deploys on push.
+Push to GitHub to trigger deployment after the repo is connected in Cloudflare.
